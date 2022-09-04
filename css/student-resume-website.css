@@ -99,7 +99,7 @@ select {
   html:focus-within {
    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -164,7 +164,7 @@ li{
 }
 
 .comment{
- font-size: var(--fs-300); 
+ font-size: var(--fs-300);
  font-weight: var(--fw-semi-bold);
 }
 
@@ -188,6 +188,19 @@ li{
 
 .footer p{
   margin: 0;
+}
+
+.copyright{
+  background-color: var(--clr-secondary);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.copyright-text{
+  font-size: var(--fs-300);
+  font-weight: var(--fw-normal);
 }
 
 
@@ -272,11 +285,8 @@ li{
   :root{
     --fs-300: clamp(.5rem,1rem + .25vw, 2rem);
   }
-
   img{
     max-height: 60vh;
     max-width: 100%;
   }
-
-  
 }
